@@ -2,11 +2,11 @@
 Summary:	Elementary Luna, an Aurorae theme for KDE 4
 Name:		kde4-aurorae-elementary-luna
 Version:	1.5
-Release:	1
+Release:	2
 Source0:	%{oname}-%{version}.tar.gz
 License:	GPLv2+
 Group:		Graphical desktop/Other
-URL:		http://www.rosalinux.com
+URL:		http://opendesktop.org/content/show.php?content=155775
 BuildArch:	noarch
 
 %description
