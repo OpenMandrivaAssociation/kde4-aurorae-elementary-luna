@@ -1,12 +1,13 @@
 %define	oname	ElementaryLunaAurorae
+
 Summary:	Elementary Luna, an Aurorae theme for KDE 4
 Name:		kde4-aurorae-elementary-luna
 Version:	1.5
 Release:	2
-Source0:	%{oname}-%{version}.tar.gz
 License:	GPLv2+
 Group:		Graphical desktop/Other
-URL:		http://opendesktop.org/content/show.php?content=155775
+Url:		http://opendesktop.org/content/show.php?content=155775
+Source0:	%{oname}-%{version}.tar.gz
 BuildArch:	noarch
 
 %description
@@ -16,7 +17,7 @@ users. It even includes the huge drop shadows!
 All artistic credit goes to Dan Rabbit and the Elementary team.
 
 %prep
-%setup -q -n %{oname}
+%setup -qn %{oname}
 
 %build
 
@@ -27,3 +28,4 @@ cp -a * %{buildroot}%{_datadir}/apps/aurorae/themes/%{oname}/
 %files
 %dir %{_datadir}/apps/aurorae/themes/%{oname}
 %{_datadir}/apps/aurorae/themes/%{oname}/*
+
