@@ -6,7 +6,7 @@ Version:	1.5
 Release:	10
 License:	GPLv2+
 Group:		Graphical desktop/Other
-Url:		http://opendesktop.org/content/show.php?content=155775
+Url:		https://opendesktop.org/content/show.php?content=155775
 Source0:	%{oname}-%{version}.tar.gz
 BuildArch:	noarch
 
